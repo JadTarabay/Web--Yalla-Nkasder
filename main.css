@@ -1,0 +1,84 @@
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text h1, h2{
+    color: #011229;;
+}
+
+.Register{
+    position: relative;
+    width: 95%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: powderblue;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.Register .reg-form{
+    max-width: 450px;
+    text-align:center;
+}
+
+.Register .reg-form h1, h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #011229;
+    margin-bottom: 15px;
+}
+.Register .reg-form p{
+    font-size: 20px;
+    color:#011229;
+    text-align: left;
+}
+.Register .reg-form ul{
+    list-style-type: disc;
+    display:inline;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    font-size: 15px;
+    color:#011229;
+}
+
+.trip-img{
+    max-width: 450px;
+    height: 100vh;
+    margin-left: 50px;
+}
+
+.trip-img img{
+    width: 600px;
+    height: 675px;
+}
+
+.video-gallery{
+   width: 100%;
+   min-height: 500px; 
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   background: transparent;
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+
+}
+
+.video-gallery video{
+    width: 33.33%;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+}
